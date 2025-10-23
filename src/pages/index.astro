@@ -9,6 +9,18 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			figure {
+				margin: 2em 0;
+			}
+			figcaption {
+				margin-top: 1em;
+				text-align: center;
+				font-style: italic;
+				color: rgb(var(--gray));
+				font-size: 0.95em;
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
